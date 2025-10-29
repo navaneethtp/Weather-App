@@ -1,0 +1,91 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(image/pexels-ithalu-907485.jpg);
+    min-height: 100vh;
+}
+
+.container{
+
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background:linear-gradient(to bottom, #9b47fc, #b582f0);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 105px;
+}
+h1{
+    color: #ffffff;
+    font-size: 35px;
+}
+
+input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+ input {
+    background-color: #cecece;
+    border-color: none;
+ }
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #9e9e9e;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7e7e7e;
+    transform: scale(1.05);
+}
+
+.weather-info{
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#temperature{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#description{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+#location{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  font-size: 14px;
+  color: #555;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;  
+  bottom: 0;   
+}
+footer a {
+  text-decoration: none;
+  color: #007bff;
+}
+footer a:hover {
+  text-decoration: underline;
+}
